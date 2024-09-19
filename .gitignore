@@ -31,4 +31,14 @@
 *.out
 *.app
 
-Debug/
+Debug/*
+.vs/*
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+x64/*
+IBM_Logo.ch8
+IBM_LogoBackup.ch8
+bc_test.ch8
+chip-8-emu.sln
+test_opcode.ch8
