@@ -1,0 +1,12 @@
+﻿  chip-8-emu.cpp
+chip-8-emu.obj : error LNK2019: unresolved external symbol _SDL_CreateWindowAndRenderer referenced in function "int __cdecl SDL_main(void)" (?SDL_main@@YAHXZ)
+chip-8-emu.obj : error LNK2019: unresolved external symbol _SDL_RenderSetScale referenced in function "int __cdecl SDL_main(void)" (?SDL_main@@YAHXZ)
+chip-8-emu.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "int __cdecl SDL_main(void)" (?SDL_main@@YAHXZ)
+chip-8-emu.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "int __cdecl SDL_main(void)" (?SDL_main@@YAHXZ)
+chip-8-emu.obj : error LNK2019: unresolved external symbol _SDL_RenderDrawPoint referenced in function "int __cdecl SDL_main(void)" (?SDL_main@@YAHXZ)
+chip-8-emu.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "int __cdecl SDL_main(void)" (?SDL_main@@YAHXZ)
+chip-8-emu.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "int __cdecl SDL_main(void)" (?SDL_main@@YAHXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\SDL2\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\SDL2\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\GitHub\chip-8-emu\Debug\chip-8-emu.exe : fatal error LNK1120: 8 unresolved externals

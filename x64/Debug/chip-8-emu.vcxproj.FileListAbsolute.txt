@@ -1,0 +1,1 @@
+D:\GitHub\chip-8-emu\x64\Debug\chip-8-emu.exe
