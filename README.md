@@ -3,7 +3,7 @@
  
 c++
 
-mostly works
+works except for sound because i didn't wanna do it
 
 1000hz clock speed
 
