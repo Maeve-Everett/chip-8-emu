@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
     }
 
     // Opening ROM
-    std::ifstream ROM("test_opcode.ch8", std::ios_base::binary);
+    std::ifstream ROM("Breakou.ch8", std::ios_base::binary);
 
     ROM.seekg(0, std::ios_base::end);
     auto length = ROM.tellg();
@@ -114,7 +114,7 @@ int main(int argc, char *argv[])
     // Main update loop
     while (true) {
 
-        if (lastClockTick > ClockSpeed) {
+        if (lastClockTick + ClockSpeed < clock()) {
 
             lastClockTick = clock();
 
@@ -132,7 +132,7 @@ int main(int argc, char *argv[])
 
         }
 
-        if (lastCPUTick > CPUClockSpeed) {
+        if (lastCPUTick + CPUClockSpeed < clock()) {
             
             lastCPUTick = clock();
 
